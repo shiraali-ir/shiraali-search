@@ -1,0 +1,19 @@
+use_default_settings: true
+
+general:
+  instance_name: "Shiraali"
+
+search:
+  formats:
+    - html
+    - json
+
+server:
+  limiter: false
+  image_proxy: false
+  secret_key: "replace-me-or-set-SEARXNG_SECRET-env"
+  default_http_headers:
+    Access-Control-Allow-Origin: "*"
+    X-Content-Type-Options: nosniff
+    X-Download-Options: noopen
+    X-Robots-Tag: noindex, nofollow
